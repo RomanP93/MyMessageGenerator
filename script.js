@@ -7,5 +7,7 @@ function generateMessage() {
     let randomPickIntro = intro[Math.floor(Math.random() * intro.length)];
     let randomPickPerson = person[Math.floor(Math.random() * person.length)];
     let randomPickAction = action[Math.floor(Math.random() * action.length)];
-    console.log(randomPickIntro, randomPickPerson,randomPickAction);
+    
+    let finalMessage = randomPickIntro + randomPickPerson + randomPickAction;
+    console.log(finalMessage);
 }
